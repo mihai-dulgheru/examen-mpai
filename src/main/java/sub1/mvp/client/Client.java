@@ -1,6 +1,6 @@
-package sub1.main.mvp.client;
+package sub1.mvp.client;
 
-import sub1.main.dp.observer.IObserver;
+import sub1.dp.observer.IObserver;
 
 import java.io.*;
 import java.util.ArrayList;

@@ -1,17 +1,17 @@
 package sub1.main;
 
-import sub1.main.mvp.client.Client;
-import sub1.main.mvp.client.ClientPresenter;
-import sub1.main.mvp.client.ClientView;
-import sub1.main.mvp.client.ClientViewImpl;
-import sub1.main.mvp.service.Service;
-import sub1.main.mvp.service.ServicePresenter;
-import sub1.main.mvp.service.ServiceView;
-import sub1.main.mvp.service.ServiceViewImpl;
-import sub1.main.mvp.solicitare.Solicitare;
-import sub1.main.mvp.solicitare.SolicitarePresenter;
-import sub1.main.mvp.solicitare.SolicitareView;
-import sub1.main.mvp.solicitare.SolicitareViewImpl;
+import sub1.mvp.client.Client;
+import sub1.mvp.client.ClientPresenter;
+import sub1.mvp.client.ClientView;
+import sub1.mvp.client.ClientViewImpl;
+import sub1.mvp.service.Service;
+import sub1.mvp.service.ServicePresenter;
+import sub1.mvp.service.ServiceView;
+import sub1.mvp.service.ServiceViewImpl;
+import sub1.mvp.solicitare.Solicitare;
+import sub1.mvp.solicitare.SolicitarePresenter;
+import sub1.mvp.solicitare.SolicitareView;
+import sub1.mvp.solicitare.SolicitareViewImpl;
 
 import java.io.IOException;
 

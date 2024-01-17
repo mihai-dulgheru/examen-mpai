@@ -1,6 +1,6 @@
-package sub1.main.mvp.solicitare;
+package sub1.mvp.solicitare;
 
-import sub1.main.mvp.client.Client;
+import sub1.mvp.client.Client;
 
 public class SolicitarePresenter {
     private final Solicitare model;

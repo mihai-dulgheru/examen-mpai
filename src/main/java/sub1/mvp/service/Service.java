@@ -1,7 +1,7 @@
-package sub1.main.mvp.service;
+package sub1.mvp.service;
 
-import sub1.main.dp.observer.IObserver;
-import sub1.main.dp.observer.ISubiect;
+import sub1.dp.observer.IObserver;
+import sub1.dp.observer.ISubiect;
 
 import java.io.*;
 import java.util.ArrayList;

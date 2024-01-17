@@ -1,4 +1,4 @@
-package sub1.main.dp.observer;
+package sub1.dp.observer;
 
 public interface ISubiect {
     void addObserver(IObserver observer);

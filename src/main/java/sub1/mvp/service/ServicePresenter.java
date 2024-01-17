@@ -1,4 +1,4 @@
-package sub1.main.mvp.service;
+package sub1.mvp.service;
 
 public class ServicePresenter {
     private final Service model;

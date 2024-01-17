@@ -1,4 +1,4 @@
-package sub1.main.mvp.client;
+package sub1.mvp.client;
 
 public class ClientPresenter {
     private final Client model;

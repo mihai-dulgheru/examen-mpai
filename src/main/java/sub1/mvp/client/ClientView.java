@@ -1,4 +1,4 @@
-package sub1.main.mvp.client;
+package sub1.mvp.client;
 
 public interface ClientView {
     void afiseazaDetaliiClient(String nume, String prenume);
