@@ -1,10 +1,8 @@
 package dataModels.dataMapper;
 
-import java.util.Optional;
-
 public interface StudentDataMapper {
 
-    Optional<Student> find(int studentId);
+    Student find(int studentId);
 
     void insert(Student student) throws DataMapperException;
 

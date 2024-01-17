@@ -1,7 +1,5 @@
 package dataModels.dataMapper;
 
-import java.util.Optional;
-
 public final class Main {
     public static void main(final String... args) {
         try {
@@ -10,7 +8,7 @@ public final class Main {
             mapper.insert(student);
             System.out.println(student + ", is inserted");
 
-            Optional<Student> studentToBeFound = mapper.find(student.getStudentId());
+            Student studentToBeFound = mapper.find(student.getStudentId());
             System.out.println(studentToBeFound + ", is searched");
 
             student = new Student(student.getStudentId(), "AdamUpdated", 'A');

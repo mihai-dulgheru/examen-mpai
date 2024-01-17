@@ -3,23 +3,22 @@ package dataModels.dataMapper;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @SuppressWarnings("CallToPrintStackTrace")
 public final class StudentDataMapperImpl implements StudentDataMapper {
     @Override
-    public Optional<Student> find(int studentId) {
+    public Student find(int studentId) {
         try (Connection connection = DatabaseManager.getConnection(); PreparedStatement statement = connection.prepareStatement("SELECT * FROM students WHERE id = ?")) {
             statement.setInt(1, studentId);
             ResultSet resultSet = statement.executeQuery();
 
             if (resultSet.next()) {
-                return Optional.of(new Student(resultSet.getInt("id"), resultSet.getString("name"), resultSet.getString("grade").charAt(0)));
+                return new Student(resultSet.getInt("id"), resultSet.getString("name"), resultSet.getString("grade").charAt(0));
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return Optional.empty();
+        return null;
     }
 
     @Override

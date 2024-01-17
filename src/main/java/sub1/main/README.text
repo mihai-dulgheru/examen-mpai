@@ -1,0 +1,7 @@
+client - nume, prenume
+solicitare - problema, loc, client
+service - angajati, adresa, nume
+
+la observer:
+- notificare o trimite Restaurantul sau Service-ul
+- IObserver este implementat de catre clasa care trimite notificare
