@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Client implements IObserver {
-    private static final String NUME_FISIER = "clienti.txt";
+    private static final String NUME_FISIER = "clients.txt";
     private String nume;
     private String prenume;
 
